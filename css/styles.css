@@ -1,0 +1,67 @@
+.main {
+	width: 75%;
+	margin: 0 auto;
+}
+
+.form {
+	width: 50%;
+	margin: 0 auto;
+}
+
+.form_row {
+	border: 1px solid #ccc;
+	padding: 0 15px;
+	margin-bottom: 15px;
+}
+
+.form_label, .subField_label {
+	display: block;
+}
+
+.form_label {	
+	padding: 20px 0 0 0;
+	font-size: 32px;	
+}
+
+.form_input, .subField_input {
+	border: none;
+	outline: none;
+	box-shadow: none;
+	letter-spacing: 1px;
+}
+
+.form_hasSubFields {
+	padding-bottom: 22px;
+}
+
+.subField {
+	display: none;	
+	float: left;
+	padding: 21px 5px 21px 5px; 
+}
+
+.fn, .mi {
+	border-right: 1px solid #ccc;
+}
+
+.ln label, .mi label{
+	padding-right: 5px;	
+}
+
+.st_address {
+	width: 65%;
+}
+
+.st_address input {
+	width: 100%;
+}
+
+.apt, .zip, .city {
+	width: 30%;
+}
+
+
+
+
+
+
