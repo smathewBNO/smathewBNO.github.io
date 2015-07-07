@@ -8,9 +8,9 @@ $(document).ready(function(){
 	//$("#pw").maskPassword();
 
 	$("#pw").keypress(function(e){		
-		setTimeout( $(this).attr("type", "text"), 5000 );
+		$(this).attr("type", "text");
 	}).keyup(function(e){
-		setTimeout( $(this).attr("type", "password"), 1000 );
+		$(this).attr("type", "password");
 	});
 
 	// Display Inputs for Rows w/o subfields
