@@ -7,7 +7,7 @@ $(document).ready(function(){
 
 	//$("#pw").maskPassword();
 
-	$("#pw").keypress(function(e){
+	$("#pw").keyup(function(e){
 		console.log( String.fromCharCode(e.which) );
 	});
 
