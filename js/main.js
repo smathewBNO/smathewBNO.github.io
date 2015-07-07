@@ -3,6 +3,7 @@ $(document).ready(function(){
 	$("#phone").mask("(999) 999-9999");
 	$("#dob").mask("99/99/9999");
 	$("#ssn").mask("999-99-9999");
+	$("#pw").mask("99-9999999", {placeholder: "*"});
 
 	// Display Inputs for Rows w/o subfields
 	$(".form_noSubFields").on("click", function(){
