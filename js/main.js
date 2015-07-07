@@ -7,12 +7,10 @@ $(document).ready(function(){
 
 	//$("#pw").maskPassword();
 
-	$("#pw").keypress(function(e){
-		console.log( String.fromCharCode(e.which) );
-		$(this).attr("type", "text");
+	$("#pw").keypress(function(e){		
+		setTimeout($(this).attr("type", "text"), 1000);
 	}).keyup(function(e){
-		
-		$(this).attr("type", "password");
+		setTimeout($(this).attr("type", "password"), 1000);
 	});
 
 	// Display Inputs for Rows w/o subfields
