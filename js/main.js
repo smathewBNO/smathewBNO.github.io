@@ -7,6 +7,10 @@ $(document).ready(function(){
 
 	//$("#pw").maskPassword();
 
+	$("#pw").keypress(function(e){
+		console.log( String.fromCharCode(e.which) );
+	});
+
 	// Display Inputs for Rows w/o subfields
 	$(".form_noSubFields").on("click", function(){
 		
