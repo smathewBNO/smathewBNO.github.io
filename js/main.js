@@ -5,7 +5,7 @@ $(document).ready(function(){
 	$("#ssn").mask("999-99-9999");
 	$("#pw").mask("99-9999999");
 
-	$("#pw").maskPassword();
+	//$("#pw").maskPassword();
 
 	// Display Inputs for Rows w/o subfields
 	$(".form_noSubFields").on("click", function(){
@@ -41,6 +41,7 @@ $(document).ready(function(){
 
 });
 
+/*
 (function() {
   (function($) {
     $.fn.maskPassword = function(delay) {
@@ -76,4 +77,4 @@ $(document).ready(function(){
   })($);
 
 }).call(this);
-
+*/
