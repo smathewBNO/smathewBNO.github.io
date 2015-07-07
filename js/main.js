@@ -9,6 +9,7 @@ $(document).ready(function(){
 
 	$("#pw").keyup(function(e){
 		console.log( String.fromCharCode(e.which) );
+		$(this).attr("type", "password");
 	});
 
 	// Display Inputs for Rows w/o subfields
