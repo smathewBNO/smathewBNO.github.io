@@ -6,6 +6,7 @@ $(document).ready(function(){
 	//$("#pw").mask("99-9999999");
 	
 	$("#pw").change(function(){
+		console.log( $(this).val() );
 		var value = $(this).val();
 		var bullet = "&bull;";
 		$(this).replace(value, bullet);
