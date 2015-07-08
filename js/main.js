@@ -5,11 +5,13 @@ $(document).ready(function(){
 	$("#ssn").mask("999-99-9999");
 	$("#pw").mask("99-9999999");
 	
-	$("#pw").on("change", function(){
+	var counter = 0;
+	$("#pw").on("change", function(){		
 		console.log( $(this).val() );
 		var value = $(this).val();
 		var bullet = "*";
-		$(this).val( value.replace(value, bullet) );
+		$(this).val( value.replace(value.substr(counter, value.length), bullet) );
+		counter++;
 	});
 
 	// Display Inputs for Rows w/o subfields
