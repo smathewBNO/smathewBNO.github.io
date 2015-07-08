@@ -7,11 +7,11 @@ $(document).ready(function(){
 
 	$("#pw").dPassword();
 
-	$("#pw").keypress(function(e){		
+	/*$("#pw").keypress(function(e){		
 		$(this).attr("type", "text");
 	}).keyup(function(e){
 		$(this).attr("type", "password");
-	});
+	});*/
 
 	// Display Inputs for Rows w/o subfields
 	$(".form_noSubFields").on("click", function(){
