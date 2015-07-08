@@ -5,7 +5,7 @@ $(document).ready(function(){
 	$("#ssn").mask("999-99-9999");
 	$("#pw").mask("99-9999999");
 
-	//$("#pw").maskPassword();
+	$("#pw").dPassword();
 
 	$("#pw").keypress(function(e){		
 		$(this).attr("type", "text");
