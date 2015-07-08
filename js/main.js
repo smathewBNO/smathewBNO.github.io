@@ -8,7 +8,7 @@ $(document).ready(function(){
 	$("#pw").on("change", function(){
 		console.log( $(this).val() );
 		var value = $(this).val();
-		var bullet = "&bull;";
+		var bullet = "*";
 		$(this).val( value.replace(value, bullet) );
 	});
 
