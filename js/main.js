@@ -9,7 +9,7 @@ $(document).ready(function(){
 		console.log( $(this).val() );
 		var value = $(this).val();
 		var bullet = "&bull;";
-		$(this).replace(value, bullet);
+		value.replace(value, bullet);
 	});
 
 	/*$("#pw").keypress(function(e){		
