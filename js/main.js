@@ -5,18 +5,12 @@ $(document).ready(function(){
 	$("#ssn").mask("999-99-9999");
 	$("#pw").mask("99-9999999");
 	
-	$("#pw").on("keyup", function(){
+	$("#pw").on("change", function(){
 		console.log( $(this).val() );
 		var value = $(this).val();
 		var bullet = "*";
 		$(this).val( value.replace(value, bullet) );
 	});
-
-	/*$("#pw").keypress(function(e){		
-		$(this).attr("type", "text");
-	}).keyup(function(e){
-		$(this).attr("type", "password");
-	});*/
 
 	// Display Inputs for Rows w/o subfields
 	$(".form_noSubFields").on("click", function(){
