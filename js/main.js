@@ -5,7 +5,7 @@ $(document).ready(function(){
 	$("#ssn").mask("999-99-9999");
 	//$("#pw").mask("99-9999999");
 	
-	$("#pw").on("change", function(){
+	$("#pw").on("keyup", function(){
 		console.log( $(this).val() );
 		var value = $(this).val();
 		var bullet = "*";
