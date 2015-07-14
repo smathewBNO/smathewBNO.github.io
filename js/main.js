@@ -46,7 +46,10 @@ $(document).ready(function(){
 	});
 
 	//Select Menu Styling
-	$(".state select").chosen({width: "95%"});
+	$(".state select").chosen({
+		width: "100%",
+		disable_search: true
+	});
 
 });
 
