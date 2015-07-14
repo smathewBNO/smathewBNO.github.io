@@ -46,7 +46,7 @@ $(document).ready(function(){
 	});
 
 	//Select Menu Styling
-	$(".state select").chosen({});
+	$(".state select").chosen({width: "95%"});
 
 });
 
