@@ -60,7 +60,9 @@
 	width: 30%;
 }
 
-
+.chosen-container-single .chosen-single {
+	background: none;
+}
 
 
 
