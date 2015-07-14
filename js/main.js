@@ -47,7 +47,7 @@ $(document).ready(function(){
 
 	//Select Menu Styling
 	$(".state select").chosen({
-		width: "120%",
+		width: "200%",
 		disable_search: true
 	});
 
