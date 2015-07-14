@@ -48,7 +48,8 @@ $(document).ready(function(){
 	//Select Menu Styling
 	$(".state select").chosen({
 		width: "150%",
-		disable_search: true
+		disable_search: true,
+		placeholder_text_single: "Choose State"
 	});
 
 });
