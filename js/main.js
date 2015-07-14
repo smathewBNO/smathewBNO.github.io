@@ -45,6 +45,8 @@ $(document).ready(function(){
 
 	});
 
+	//Select Menu Styling
+	$(".state select").chosen();
 
 });
 
