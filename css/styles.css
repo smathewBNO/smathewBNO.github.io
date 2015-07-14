@@ -60,7 +60,10 @@
 	width: 30%;
 }
 
-
+.state select {
+	-webkit-appearance: none;
+	-moz-appearance: none;	
+}
 
 
 
